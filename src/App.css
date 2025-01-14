@@ -3,8 +3,15 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 5vmin;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.no-select {
+  user-select: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
