@@ -6,7 +6,7 @@ const Link = ({ name, logo, url }) => (
       <img
         src={logo}
         alt={name}
-        style={{ width: "50px", marginRight: "5px" }}
+        style={{ width: "40px", marginRight: "5px" }}
       />
       {name}
     </a>
