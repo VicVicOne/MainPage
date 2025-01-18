@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/MainPage/static/css/main.73b452e0.css",
-    "main.js": "/MainPage/static/js/main.7c321363.js",
+    "main.css": "/MainPage/static/css/main.1279af81.css",
+    "main.js": "/MainPage/static/js/main.92280bb9.js",
     "static/js/488.2c3975bb.chunk.js": "/MainPage/static/js/488.2c3975bb.chunk.js",
+    "static/media/graffiti.bmp": "/MainPage/static/media/graffiti.2aa79bb8306b48ad6e06.bmp",
+    "static/media/question.webp": "/MainPage/static/media/question.cddcc6bb229f348c03fe.webp",
     "static/media/saitama.png": "/MainPage/static/media/saitama.f1aa7dc77ff843805bda.png",
+    "static/media/github-mark.svg": "/MainPage/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/MainPage/index.html",
-    "static/media/alien-svgrepo-com.svg": "/MainPage/static/media/alien-svgrepo-com.d8c3b4cf43143f17b7cda78673198ae0.svg",
-    "main.73b452e0.css.map": "/MainPage/static/css/main.73b452e0.css.map",
-    "main.7c321363.js.map": "/MainPage/static/js/main.7c321363.js.map",
+    "main.1279af81.css.map": "/MainPage/static/css/main.1279af81.css.map",
+    "main.92280bb9.js.map": "/MainPage/static/js/main.92280bb9.js.map",
     "488.2c3975bb.chunk.js.map": "/MainPage/static/js/488.2c3975bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73b452e0.css",
-    "static/js/main.7c321363.js"
+    "static/css/main.1279af81.css",
+    "static/js/main.92280bb9.js"
   ]
 }
