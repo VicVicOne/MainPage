@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from "react";
 import logo from "./saitama.png";
 import liLogo from "./LI-In-Bug.png";
+import reactLogo from "./logo512.png";
+import graffiti from "./graffiti.bmp";
+import gitHubLogo from "./github-mark.svg";
+import questionIcon from "./question.webp";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import Link from "./Link";
 import Header from "./Header";
+import LinkGroup from "./LinkGroup";
 
 function App() {
   useEffect(() => {
@@ -29,63 +33,20 @@ function App() {
       logo: liLogo,
       url: "https://www.linkedin.com/in/victor-gonzalez-6b9386343/",
     },
-    { name: "Example", logo: logo, url: "https://example.com" },
-    { name: "Google", logo: logo, url: "https://google.com" },
-    { name: "Tokyo", logo: logo, url: "https://es.wikipedia.org/wiki/Tokio" },
-    { name: "Madrid", logo: logo, url: "https://es.wikipedia.org/wiki/Madrid" },
-    { name: "React", logo: logo, url: "https://react.dev/" },
+    { name: "GitHub", logo: gitHubLogo, url: "https://github.com/VicVicOne" },
+    { name: "Example", logo: questionIcon, url: "https://example.com" },
+    { name: "Game???", logo: questionIcon, url: "https://google.com" },
+    { name: "Graffiti Wall", logo: graffiti, url: "https://example.com" },
+    { name: "React", logo: reactLogo, url: "https://react.dev/" },
   ];
-
-  /*<span className="cursor-pointer no-select" onClick={handleClick}>
-          <img
-            src={logo}
-            className="App-logo"
-            alt="logo"
-            style={{
-              animation: `App-logo-spin infinite ${speed}s linear`,
-            }}
-          />
-          <h2> Victor's MainPage </h2>
-        </span>*/
 
   const [speed, setSpeed] = useState("20");
 
   return (
     <div className="" style={{ userSelect: "none" }}>
-      <div className="container text-center p-5 ">
-        <span className="cursor-pointer no-select" onClick={handleClick}>
-          <img
-            src={logo}
-            alt="logo"
-            className="rounded-circle"
-            height="96px"
-            width="96px"
-          />
-          <h4> Victor's MainPage </h4>
-        </span>
-      </div>
+      <Header logo={logo} />
 
-      {linksList.map((link, index) => (
-        <>
-          <Link key={index} {...link} />
-        </>
-      ))}
-      <div className="container text-center p-5 ">
-        <ul class="list-group w-100 w-md-100 mx-auto">
-          <li class="list-group-item m-2 rounded-4 p-3 border-0 ">
-            <img
-              src={liLogo}
-              alt="name"
-              style={{ width: "40px", marginRight: "5px" }}
-            />
-            LinkedIn
-          </li>
-          <li class="list-group-item m-2 rounded-3 p-3">A second item</li>
-          <li class="list-group-item m-2 rounded-3 p-3">A third item</li>
-          <li class="list-group-item m-2 rounded-3 p-3">A fourth item</li>
-          <li class="list-group-item m-2 rounded-3 p-3">And a fifth one</li>
-        </ul>
-      </div>
+      <LinkGroup linksList={linksList} />
     </div>
   );
 }
