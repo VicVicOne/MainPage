@@ -37,7 +37,12 @@ function App() {
     { name: "Example", logo: questionIcon, url: "https://example.com" },
     { name: "Game???", logo: questionIcon, url: "https://google.com" },
     { name: "Graffiti Wall", logo: graffiti, url: "https://example.com" },
-    { name: "React", logo: reactLogo, url: "https://react.dev/" },
+    {
+      name: "React",
+      logo: reactLogo,
+      url: "https://react.dev/",
+      clickSpin: true,
+    },
   ];
 
   const [speed, setSpeed] = useState("20");

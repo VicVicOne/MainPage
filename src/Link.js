@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Link = ({ name, logo, url }) => {
+const Link = ({ name, logo, url, clickSpin }) => {
+  const [speed, setSpeed] = useState(0);
+
   const handleClick = () => {
-    window.open(url, "_blank");
+    if (clickSpin) {
+      if (speed == 0) {
+        setSpeed(15);
+      } else if (speed < 0.04) {
+        setSpeed(15);
+        window.open(url, "_blank");
+      } else {
+        setSpeed(speed / 4);
+      }
+    } else {
+      window.open(url, "_blank");
+    }
   };
 
   return (
@@ -13,7 +26,11 @@ const Link = ({ name, logo, url }) => {
       <img
         src={logo}
         alt={name}
-        style={{ height: "40px", marginRight: "5px" }}
+        style={{
+          height: "40px",
+          marginRight: "5px",
+          animation: `App-logo-spin infinite ${speed}s linear`,
+        }}
       />
       {name}
     </li>

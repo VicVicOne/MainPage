@@ -50,5 +50,14 @@
 
 .hover-grow:hover {
   transform: scale(1.03);
+  filter: invert(1); /* Inverts the colors */
   /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */ /* Add shadow on hover */
+}
+
+.invert-hover {
+  transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.invert-hover:hover {
+  filter: invert(1); /* Inverts the colors */
 }
