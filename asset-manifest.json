@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MainPage/static/css/main.1279af81.css",
-    "main.js": "/MainPage/static/js/main.92280bb9.js",
+    "main.css": "/MainPage/static/css/main.d4b5da34.css",
+    "main.js": "/MainPage/static/js/main.ef16f4b1.js",
     "static/js/488.2c3975bb.chunk.js": "/MainPage/static/js/488.2c3975bb.chunk.js",
     "static/media/graffiti.bmp": "/MainPage/static/media/graffiti.2aa79bb8306b48ad6e06.bmp",
     "static/media/question.webp": "/MainPage/static/media/question.cddcc6bb229f348c03fe.webp",
     "static/media/saitama.png": "/MainPage/static/media/saitama.f1aa7dc77ff843805bda.png",
     "static/media/github-mark.svg": "/MainPage/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/MainPage/index.html",
-    "main.1279af81.css.map": "/MainPage/static/css/main.1279af81.css.map",
-    "main.92280bb9.js.map": "/MainPage/static/js/main.92280bb9.js.map",
+    "main.d4b5da34.css.map": "/MainPage/static/css/main.d4b5da34.css.map",
+    "main.ef16f4b1.js.map": "/MainPage/static/js/main.ef16f4b1.js.map",
     "488.2c3975bb.chunk.js.map": "/MainPage/static/js/488.2c3975bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1279af81.css",
-    "static/js/main.92280bb9.js"
+    "static/css/main.d4b5da34.css",
+    "static/js/main.ef16f4b1.js"
   ]
 }
