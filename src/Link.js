@@ -20,7 +20,7 @@ const Link = ({ name, logo, url, clickSpin }) => {
 
   return (
     <li
-      className="list-group-item m-2 rounded-4 p-3 border-0 cursor-pointer fw-semibold list-group-item-action hover-grow"
+      className="list-group-item custom m-2 rounded-4 p-3 cursor-pointer fw-semibold list-group-item-action hover-grow"
       onClick={handleClick}
     >
       <img

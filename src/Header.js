@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 
 const Header = ({ logo }) => {
+  const [newTheme, setNewTheme] = useState("dark");
   const handleClick = () => {
-    alert("Button clicked! ");
+    if (newTheme != "dark") {
+      setNewTheme("dark");
+    } else {
+      setNewTheme("mainTheme");
+    }
+    document.documentElement.setAttribute("data-bs-theme", newTheme);
   };
 
   return (

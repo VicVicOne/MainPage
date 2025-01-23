@@ -5,6 +5,7 @@ import reactLogo from "./logo512.png";
 import graffiti from "./graffiti.bmp";
 import gitHubLogo from "./github-mark.svg";
 import questionIcon from "./question.webp";
+import bootStrapIcon from "./question.webp";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -37,6 +38,7 @@ function App() {
     { name: "Example", logo: questionIcon, url: "https://example.com" },
     { name: "Game???", logo: questionIcon, url: "https://google.com" },
     { name: "Graffiti Wall", logo: graffiti, url: "https://example.com" },
+    { name: "Bootstrap Test", logo: bootStrapIcon, url: "https://example.com" },
     {
       name: "React",
       logo: reactLogo,

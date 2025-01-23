@@ -50,7 +50,7 @@
 
 .hover-grow:hover {
   transform: scale(1.03);
-  filter: invert(1); /* Inverts the colors */
+  /*filter: invert(1);*/ /* Inverts the colors */
   /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */ /* Add shadow on hover */
 }
 
@@ -60,4 +60,16 @@
 
 .invert-hover:hover {
   filter: invert(1); /* Inverts the colors */
+}
+
+[data-bs-theme="mainTheme"] .bg-custom {
+  background-color: #ebeef1;
+}
+
+[data-bs-theme="mainTheme"] .list-group-item.custom {
+  border: 0px;
+}
+
+[data-bs-theme="dark"] .list-group-item.custom {
+  border: 1px solid #343a40;
 }
