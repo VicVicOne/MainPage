@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import logo from "./saitama.png";
 import liLogo from "./LI-In-Bug.png";
 import reactLogo from "./logo512.png";
-import graffiti from "./graffiti.bmp";
+import graffiti from "./graffit.png";
 import gitHubLogo from "./github-mark.svg";
 import questionIcon from "./question.webp";
 import bootStrapIcon from "./question.webp";
+import calcIcon from "./calc.png";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -35,10 +36,14 @@ function App() {
       url: "https://www.linkedin.com/in/victor-gonzalez-6b9386343/",
     },
     { name: "GitHub", logo: gitHubLogo, url: "https://github.com/VicVicOne" },
-    { name: "Example", logo: questionIcon, url: "https://example.com" },
+    { name: "Calculadora", logo: calcIcon, url: "https://example.com" },
+    {
+      name: "Ad Wall",
+      logo: graffiti,
+      url: "https://vicvicone.github.io/ad-wall/",
+    },
+    // { name: "Bootstrap Test", logo: bootStrapIcon, url: "https://example.com" },
     { name: "Game???", logo: questionIcon, url: "https://google.com" },
-    { name: "Graffiti Wall", logo: graffiti, url: "https://example.com" },
-    { name: "Bootstrap Test", logo: bootStrapIcon, url: "https://example.com" },
     {
       name: "React",
       logo: reactLogo,
