@@ -43,7 +43,7 @@ function App() {
       url: "https://vicvicone.github.io/ad-wall/",
     },
     // { name: "Bootstrap Test", logo: bootStrapIcon, url: "https://example.com" },
-    //{ name: "Game???", logo: questionIcon, url: "https://google.com" },
+    // PRUEBA { name: "Game???", logo: questionIcon, url: "https://google.com" },
     {
       name: "React",
       logo: reactLogo,
